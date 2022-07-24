@@ -33,7 +33,7 @@ app.use("/api/articles", articleRouter);
 app.use("/api/users", userRouter);
 
 app.get("/", (req, res) => {
-  res.send("bonjour");
+  res.send("bonjour api");
 });
 app.listen(process.env.PORT, () => {
   console.log(`Server is listening on port ${process.env.PORT}`);
